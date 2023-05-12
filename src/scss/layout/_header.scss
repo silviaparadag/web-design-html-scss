@@ -1,13 +1,13 @@
 .header {
-    opacity: 0%;
     color: $white;
-    position: fixed;
-    // z-index: 0;
 }
 
 .header_menu {
     width: 44px;
     height: 44px;
+    position: fixed;
+    top: 0;
+    z-index: 99;
     background-color: $dark-blue;
     display: flex;
     align-items: center;
