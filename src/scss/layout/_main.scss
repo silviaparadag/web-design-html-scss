@@ -159,11 +159,11 @@
 @media screen and (min-width: 768px) {
     .main_section {
         padding: 0 39px 45px 39px;
+        gap: 20px;
     }
     .main_title {
         width: 690px;
         height: 212px;
-        margin: 384px 0 20px 0;
         font-size: 8rem;
         line-height: 1.33;
     }
@@ -171,6 +171,9 @@
         width: 360px;
         height: 32px;
         font-size: 2.4rem;
+    }
+    .scrolldown {
+        margin-top: 10px;
     }
     .section1 {
         padding: 30px 39px 60px;
@@ -220,10 +223,13 @@
     }
 }
 @media screen and (min-width: 1280px) {
+    .main_section {
+        padding: 0 275px 45px 275px;
+        gap: 0px;
+        }
     .main_title {
         width: 730px;
         height: 264px;
-        margin: 384px 275px 20px;
         font-size: 10rem;
         line-height: 1.32;
     }
@@ -231,8 +237,7 @@
         width: 730px;
     }
     .scrolldown {
-        width: 45px;
-        height: 45px;
+        margin-top: 30px;
     }
     .section1 {
         padding: 30px 39px 60px;
