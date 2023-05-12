@@ -18,9 +18,20 @@
     height: 14px;
 }
 
-@media screen and (min-width: 1280px) {
-    .header{
+
+@media screen and (min-width: 768px) {
+    .header {
         margin: auto;
-    }
+}
+    .header_menu {
+        position: absolute;
+        top: 0;
+        z-index: 99;
+}
+}
+@media screen and (min-width: 1280px) {
+    // .header{
+    //     margin: auto;
+    // }
     // duda para soporte/
 }
