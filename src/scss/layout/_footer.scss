@@ -2,9 +2,13 @@
     width: 100%;
     height: 465px;
     background-color: $dark-grey-blue;
+    margin-top: -22.5px;
+    padding-top: 60px;
+    padding-bottom: 45px;
     color: $white;
     display: flex;
     flex-direction: column;
+    gap: 30px;
 }
 
 .footer_menu {
@@ -20,8 +24,8 @@
 .menu_list {}
 
 .link_sm {
-    width: 320px;
-    height: 465px;
+    width: 147px;
+    height: 90px;
     margin: 0 auto;
     font-size: 1.6rem;
     font-weight: normal;
@@ -32,17 +36,34 @@
 .link_list {}
 
 .copy {
+    margin: 0 auto;
     font-size: 1.4rem;
     font-weight: normal;
     line-height: 2.14;
     text-align: center;
 }
+.symbol {
+    color: red;
+}
 
 
 @media screen and (min-width: 768px) {
-    .class {}
+    .footer {
+        height: 240px;
+        padding: 45px 39px 45px;
+        flex-direction: row;
+    }
+    .copy {
+        order: -1;
+        width: 210px;
+    }
+    .footer_menu {
+        width: 210px;
+    }
+    .link_sm {
+        width: 210px;
+    }
 }
-
 @media screen and (min-width: 1280px) {
     .class {}
 }
