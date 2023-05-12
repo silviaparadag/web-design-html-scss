@@ -1,23 +1,29 @@
 .header {
-    width: 100vw;
-    height: 100vh;
-    background-image: url("../images/cover.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    opacity: 0%;
     color: $white;
+    position: fixed;
+    // z-index: 0;
 }
 
 .header_menu {
-
+    width: 44px;
+    height: 44px;
+    background-color: $dark-blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu_logo {
+    width: 16px;
+    height: 14px;
 }
 
-.header_title {
-    font-family: $font-secondary;
+@media screen and (min-width: 768px) {
+    .header {
+        // width: 100vw;
+    }
 }
 
-.scroll_down {
-
+@media screen and (min-width: 1280px) {
+    .class {}
 }
-
-
-

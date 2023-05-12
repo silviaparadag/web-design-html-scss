@@ -2,23 +2,97 @@
 
 }
 
+.main_section {
+    height: 100vh;
+    padding: 0 15px 0 15px;
+    background-image: url("../images/cover.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    // background-blend-mode: multiply;
+    // background-image: linear-gradient(to bottom, $white 25%, $black)
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_title {
+    font-family: $font-secondary;
+    color: $white;
+    margin: 240px 15px 10px 15px;
+    text-shadow: 0 2px 3px $k-20;
+    font-size: 4.2rem;
+    font-weight: bold;
+    line-height: 1.31;
+    text-align: center;
+}
+
+.main_text {
+    margin: 0 15px 45px 15px;
+    color: $white;
+    font-size: 1.6rem;
+    font-weight: normal;
+    text-align: center;
+}
+
+.scrolldown {
+    width: 45px;
+    height: 45px;
+    margin: 45px auto;
+    border-radius: 50%;
+    background-color: $white;
+    background-image: url("../images/ico-scroll-down/ico-scroll-down.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: contain;
+
+}
 .section1 {
+    padding: 30px 15px 45px;
 
 }
 
 .s1_subtitle {
-
-}
-
-.s1_text {
-
+    width: 90px;
+    height: 30px;
+    color: $lightblue;
+    font-size: 1.4rem;
+    font-weight: normal;
+    text-align: center;
 }
 
 .s1_title {
+    width: 290px;
+    height: 60px;
+    color: $black;
+    font-family: $font-secondary;
+    font-size: 2.4rem;
+    font-weight: 500;
+    line-height: 1.25;
+    text-align: left;
+}
 
+.s1_text {
+    margin: 15px 0 30px;
+    color: $greyish-brown;
+    font-size: 1.8rem;
+    font-weight: normal;
+    text-align: left;
 }
 
 .button1 {
+    width: 76px;
+    height: 45px;
+    border-radius: 22.5px;
+    border: solid 2px $bright-orange;
+    padding: 0 auto 0;
+    background-color:$white;
+    color: $bright-orange;
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+    
 
 }
 
