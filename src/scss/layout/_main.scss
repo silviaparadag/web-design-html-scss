@@ -217,6 +217,19 @@
     }
 }
 @media screen and (min-width: 1280px) {
-    .class {}
+    .main_section {
+        width: 1280px;
+        height: 768px;
+        margin: auto;
+        background-image: linear-gradient(tobottom, $white-50 25%, $black), url("../images/cover.jpg");
+        background-repeat: no-repeat;
+        background-size: 1280px;
+        background-position: center;
+        background-blend-mode: multiply;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
