@@ -52,18 +52,24 @@
         height: 240px;
         padding: 45px 39px 45px;
         flex-direction: row;
+        gap: 30px;
     }
     .copy {
         order: -1;
         width: 210px;
+        text-align: left;
     }
     .footer_menu {
         width: 210px;
+        text-align: left;
     }
     .link_sm {
         width: 210px;
+        text-align: left;
     }
 }
 @media screen and (min-width: 1280px) {
-    .class {}
+    .footer {
+        padding: 45px 370px 45px;
+    }
 }
