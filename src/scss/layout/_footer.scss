@@ -10,7 +10,6 @@
     flex-direction: column;
     gap: 30px;
 }
-
 .footer_menu {
     width: 73px;
     height: 150px;
@@ -20,9 +19,6 @@
     line-height: 1.88;
     text-align: center;
 }
-
-.menu_list {}
-
 .link_sm {
     width: 147px;
     height: 90px;
@@ -32,9 +28,10 @@
     line-height: 1.88;
     text-align: center;
 }
-
-.link_list {}
-
+.link_list {
+    color: $white;
+    text-decoration: none;
+}
 .copy {
     margin: 0 auto;
     font-size: 1.4rem;
