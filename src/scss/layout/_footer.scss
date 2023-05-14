@@ -1,15 +1,27 @@
 .footer {
     width: 100%;
     height: 465px;
-    background-color: $dark-grey-blue;
     margin-top: -22.5px;
     padding-top: 60px;
     padding-bottom: 45px;
+    background-color: $dark-grey-blue;
     color: $white;
     display: flex;
     flex-direction: column;
     gap: 30px;
+
+    @media screen and (min-width: 768px) {
+        height: 240px;
+        padding: 45px 39px 45px;
+        flex-direction: row;
+        gap: 30px;
+    }
+
+    @media screen and (min-width: 1280px) {
+        padding: 45px 370px 45px;
+    }
 }
+
 .footer_menu {
     width: 73px;
     height: 150px;
@@ -18,7 +30,14 @@
     font-weight: normal;
     line-height: 1.88;
     text-align: center;
+
+    @media screen and (min-width: 768px) {
+        width: 210px;
+        text-align: left;
+    }
+
 }
+
 .link_sm {
     width: 147px;
     height: 90px;
@@ -27,46 +46,33 @@
     font-weight: normal;
     line-height: 1.88;
     text-align: center;
+
+    @media screen and (min-width: 768px) {
+        width: 210px;
+        text-align: left;
+    }
+
 }
+
 .link_list {
     color: $white;
     text-decoration: none;
 }
+
 .copy {
     margin: 0 auto;
     font-size: 1.4rem;
     font-weight: normal;
     line-height: 2.14;
     text-align: center;
-}
-.symbol {
-    color: red;
-}
 
-
-@media screen and (min-width: 768px) {
-    .footer {
-        height: 240px;
-        padding: 45px 39px 45px;
-        flex-direction: row;
-        gap: 30px;
-    }
-    .copy {
+    @media screen and (min-width: 768px) {
         order: -1;
         width: 210px;
         text-align: left;
     }
-    .footer_menu {
-        width: 210px;
-        text-align: left;
-    }
-    .link_sm {
-        width: 210px;
-        text-align: left;
-    }
 }
-@media screen and (min-width: 1280px) {
-    .footer {
-        padding: 45px 370px 45px;
-    }
+
+.symbol {
+    color: red;
 }
