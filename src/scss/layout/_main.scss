@@ -141,12 +141,16 @@
     line-height: 1.67;
 }
 
+.box_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .button2 {
     width: 184px;
     height: 45px;
     border-radius: 22.5px;
     border: solid 2px $bright-orange;
-    padding: 0 auto 0;
     margin: 0 53px 0;
     background-color: $bright-orange;
     color: $white;
@@ -154,8 +158,8 @@
     font-weight: 500;
     text-align: center;
     &:hover {
-            background-color: $white;
-            color:$bright-orange ;
+        background-color: $white;
+        color:$bright-orange ;
         }
 }
 .arrowup {
@@ -244,7 +248,6 @@
     }
     .button2 {
         width: 210px;
-        margin: 60px 239px 0;
     }
 }
 @media screen and (min-width: 1280px) {
@@ -300,7 +303,6 @@
     }
     .button2 {
         width: 255px;
-        margin: 0 428px 0;
     }
 }
 
