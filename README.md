@@ -6,11 +6,12 @@ In the first module of the bootcamp we had to create a website following the des
 
 ## Tools ⚒️
 
-- HTML, CSS, SASS
-- Zeplin
-- Vs Code
-- GitHub
+- HTML, CSS, Saas
+- Visual Studio Code
 - Adalab Web Starter Kit
+- GitHub
+- Zeplin
+
 
 This web page must work for the following device formats:
 
