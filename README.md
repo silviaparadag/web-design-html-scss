@@ -1,9 +1,11 @@
 ![Adalab](https://beta.adalab.es/resources/images/adalab-logo-155x61-bg-white.png)
 
-# Module 1 | Promo T: Individual evaluation exercise
+# Module 1 | Promo T: individual evaluation exercise
 
 In the first module of the bootcamp we had to create a website following the design and indications provided by the Product Owner. 
 
+
+&nbsp;
 ## Tools ⚒️
 
 - HTML, CSS, Saas
@@ -12,6 +14,8 @@ In the first module of the bootcamp we had to create a website following the des
 - GitHub
 - Zeplin
 
+
+&nbsp;
 
 This web page must work for the following device formats:
 
@@ -28,6 +32,11 @@ This web page must work for the following device formats:
 ![Desktop_red](https://github.com/Adalab/modulo-1-evaluacion-final-silviaparadag/assets/130361802/886d285a-08ef-4d65-9b0e-16ce004c6301)
 
 
+&nbsp;
+
    ### 💫 y con eso... ¡Ya estaría! 💫
+
+
+&nbsp;
 
 © Adalab 2023 | Trótula Promotion
