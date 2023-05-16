@@ -34,9 +34,12 @@ This web page must work for the following device formats:
 
 &nbsp;
 
-   ### 💫 y con eso... ¡Ya estaría! 💫
+   ### 💫 and... That's all folks ! 💫
 
 
 &nbsp;
 
 © Adalab 2023 | Trótula Promotion
+
+
+
