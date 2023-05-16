@@ -3,6 +3,15 @@
 # Module 1 | Promo T: Individual evaluation exercise
 
 In the first module of the bootcamp we had to create a website following the design and indications provided by the Product Owner. 
+
+## Tools ⚒️
+
+- HTML, CSS, SASS
+- Zeplin
+- Vs Code
+- GitHub
+- Adalab Web Starter Kit
+
 This web page must work for the following device formats:
 
 - [ ] Mobile:
@@ -16,6 +25,7 @@ This web page must work for the following device formats:
 - [ ] Desktop:
 
 ![Desktop_red](https://github.com/Adalab/modulo-1-evaluacion-final-silviaparadag/assets/130361802/886d285a-08ef-4d65-9b0e-16ce004c6301)
+
 
    ### 💫 y con eso... ¡Ya estaría! 💫
 
