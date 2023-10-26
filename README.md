@@ -1,8 +1,10 @@
-![Adalab](https://beta.adalab.es/resources/images/adalab-logo-155x61-bg-white.png)
+
+<img width="1245" alt="ap" src="https://github.com/silviaparadag/web-design-html-scss/assets/130361802/286ad135-6c67-44ea-9c7e-52cc100077ce">
 
 # Anonymus Proxy Web
 
 In this exercise, we had to create a website following the design and indications provided by the Product Owner. 
+
 Main features:
 - Mobile First
 - Responsive Design
@@ -78,5 +80,7 @@ Module 1 | Promo T: individual evaluation exercise
 
 © Silvia Parada | 2023 
 
+&nbsp;
 
+![Adalab](https://beta.adalab.es/resources/images/adalab-logo-155x61-bg-white.png)
 
