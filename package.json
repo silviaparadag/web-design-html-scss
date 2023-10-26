@@ -1,5 +1,6 @@
 {
-	"name": "adalab-web-starter-kit",
+	"name": "anonymus-proxy",
+	"author": "Silvia Parada",
 	"version": "3.0.1",
 	"description": "Adalab web starter kit",
 	"dependencies": {
@@ -36,7 +37,6 @@
 		"type": "git",
 		"url": "git+ssh://git@github.com:Adalab/adalab-web-starter-kit.git"
 	},
-	"author": "Adalab",
 	"license": "MIT",
-	"homepage": "https://github.com/adalab/adalab-web-starter-kit"
+	"homepage": "./"
 }
